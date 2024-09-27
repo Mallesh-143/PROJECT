@@ -1,0 +1,320 @@
+.main{
+    height: auto;
+  overflow-x: hidden;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+.container-fluid{
+    width: 100vw;
+    background-image: url(images/welcome-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    position: relative;
+    
+    
+}
+.carvillaopen{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    
+    
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 2;
+    background-color: rgb(235, 97, 97);
+}
+span > a{
+    
+    padding: 5px 5px;
+   color: black;
+    text-decoration: none; 
+}
+span > a:hover{
+    background-color: rgba(55, 97, 155, 0.668);
+    color: white ;
+    outline:1px solid;
+    border-radius: 15px;
+    -ms-zoom-animation: 110%;
+    text-decoration: none;
+}
+.text2{
+    display: inline-block;  
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    
+}
+.btn{
+    background-color: rgba(55, 97, 155, 0.668);
+    padding: 8px 50px;
+    color: white ;
+    text-decoration: none;  
+}
+.searchcar{
+    padding: 3%;
+    width: 70vw;
+    font-size: 18px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+background-color: white;
+    position: absolute;
+    left: 15%;
+    top: 80%;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+.searchitems{
+    padding:3%  ;
+    width: 60vw;
+    align-items: center;   
+}
+     
+@media screen and (max-width : 770px) {
+    .hamburger{
+        display:none;
+        font-size: 3rem;
+        padding: 10px;
+
+    }
+    .nav{
+        height: 250px;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav > .d-flex{
+        display: flex !important;
+        flex-direction: column !important;
+        background-color:rgb(235, 97, 97);
+    }
+    .searchcar{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .carousel-item{
+    height: auto;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+ 
+    }
+    .brand-area{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .con2{
+        padding-top: 400px;
+        height: 1500px ;
+        background-color: aqua;
+    }
+    .con3{
+        height: 1500px;
+    }
+
+}
+
+label{
+    margin: 10px;
+    width: 300px;
+}
+select{
+    border: 0;
+    outline: white;
+    padding: 10px;
+    border-radius: 5%;
+    width: 200px;
+    height: 50px;
+    background-color: #d9d1d121;
+}
+.search , .newcarbtn{
+    border: 0;
+    margin-right: 30px;
+    border-radius: 5%;
+    width: 130px;
+    height: 50px;
+    background-color: #1b4b9ef1;
+    color: aliceblue;
+}
+.con2{
+    width: 100wv;
+    height: auto;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+.service1 , .service2 , .service3{
+    border: 1px #120e0e32  solid ;
+    width: 450px;
+    height: 500px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+   
+   
+}
+.service1:hover , .service2:hover , .service3:hover , .icon:hover , .single-testimonial-box:hover{
+    background-color: #4e4ffa;
+    
+    color: white;
+    h2>a{
+    color: white;
+    text-decoration: none;
+}
+}
+h2>a{
+    text-decoration: none;
+    color: black;
+}
+.p{
+    text-align: center;
+}
+
+.icon{
+    width: 100px;
+    height: auto;
+}
+.con2 > .row{
+    display: flex;
+    gap: 40px;
+    background-color: white;
+}
+.con3{
+    background-color: aliceblue; 
+    height: auto; 
+    margin-top: 150px;
+}
+.carousel-item{
+    height: auto;
+    background-color: aliceblue;          
+}
+.featured-img-box{
+    width: 300px;
+    height: 350px;
+    border: 1px #120e0e32  solid ;
+    display: grid;
+    place-items: center;
+}
+.featured-model-info {
+    border: 1px #120e0e32  solid ;
+    display: grid;
+    align-self: end;
+}
+
+
+
+
+.con5{
+    background-color: aliceblue; 
+    padding-bottom: 100px;
+
+}
+
+.single-testimonial-box{
+    border: 1px #120e0e32  solid ;
+    width: 400px;
+    height: 500px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    place-items: center;
+    padding: 20px;
+}
+
+.brand-area {
+    height: 450px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 40px;
+
+}
+
+
+
+.con7{
+    background-color: #39b1c65f;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 80px;
+
+}
+ul{
+    list-style-type: none;
+}
+ li > a {
+    text-decoration:none;
+    color: inherit;
+    animation-name:element;
+}
+.hm-foot-email{
+    position: relative;
+}
+.fa-arrow-right{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color:inherit;
+}
+.footer-copyright{
+    margin-top: 100px;
+    border-top: 1px solid;
+    padding: 10px;
+}
+ ul > li{
+    padding: 3px;
+    animation: element;
+}
+    
+ul > li:hover {
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    transform: translateX(+10px);
+}
+
+@keyframes moveUpDown {
+0% {
+transform: translateY(0);
+}
+50% {
+transform: translateY(-10px); 
+}
+100% {
+transform: translateY(0); 
+}
+}
+
+.owl {
+background-color: cadetblue;
+font-size: 3rem;
+position: fixed;
+z-index: 3;
+bottom: 5%;
+right: 3%;
+width: 50px;
+height: 50px; 
+border-radius:50%; 
+display: flex;
+align-items: center; 
+justify-content:center;
+animation: moveUpDown 1s ease-in-out infinite;
+}
